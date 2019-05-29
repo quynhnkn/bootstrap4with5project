@@ -1,0 +1,23 @@
+.icon {
+  color: #fff; }
+
+.bg-black {
+  background: #000; }
+
+#main-header img {
+  width: 100%;
+  height: 100%; }
+
+#main-header .port-item {
+  width: 30%;
+  min-height: 121px; }
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+#main-header .port-item .fa {
+  font-size: 2.5em !important; }
+
+.card-footer {
+  border: 1px solid #f4f4f4 !important; }

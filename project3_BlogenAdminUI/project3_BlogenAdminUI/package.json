@@ -1,0 +1,22 @@
+{
+  "name": "project3_blogenadminui",
+  "version": "1.0.0",
+  "description": "Blogen Admin UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Quynh Ngo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

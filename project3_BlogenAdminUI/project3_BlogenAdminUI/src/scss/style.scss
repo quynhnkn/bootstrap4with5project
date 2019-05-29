@@ -1,0 +1,76 @@
+.active {
+  color: white;
+}
+.navbar {
+  .navbarNav {
+    display: -webkit-inline-box;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .nav-item {
+    list-style: none;
+  }
+  .nav-link {
+    font-weight: 400;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+  }
+  .nav-link:hover {color:#f4f4f4;}
+  .dropdown-menu {
+    min-width: 11rem;
+  }
+}
+#main-header {
+  background: #007bff;
+  .title {
+    color: #fff;
+    font-size: 36px;
+  }
+}
+#action {
+  background: #f4f4f4 !important;
+  min-height: 2rem;
+  width: 100%;
+  .btn {
+    width: 100%;
+    margin-left:-2px;
+  }
+
+}
+
+#posts {
+  .card-body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    float: left;
+  }
+  th, td {
+    padding-top: 1.2rem;
+  }
+  .button-s {
+    padding-top: 0.7rem;
+  }
+  .card-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    .navbarNav {
+      display: block;
+      width: 100%;
+    }
+    .dropdown-menu {
+      width: 100%;
+    }
+    .nav-link:hover {color:#f4f4f4;}
+  }
+}

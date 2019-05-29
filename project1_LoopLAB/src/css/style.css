@@ -1,0 +1,82 @@
+.c-w {
+  color: #fff !important; }
+
+.b-w {
+  background-color: #fff; }
+
+.col-md-6 {
+  float: left; }
+
+body {
+  background-color: #333 !important;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 3px solid #008ed6 !important;
+  opacity: 0.8; }
+
+#home-section {
+  background: url(../img/home.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  width: 100%; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-content {
+    padding-top: 150px; }
+  #home-section .display-4 {
+    color: #fff;
+    text-align: justify; }
+  #home-section .fa {
+    color: #008ed6 !important;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px !important;
+    margin-top: 4px; }
+  #home-section .p-4 {
+    color: #fff; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .form-control {
+    margin-bottom: 15px; }
+  #home-section .btn {
+    border: 1px solid #fff;
+    width: 100%; }
+
+#explore-head-section .btn {
+  color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  opacity: 0.6;
+  font-size: 18px;
+  width: 170px;
+  height: 50px; }
+
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 28px;
+  margin-top: 8px; }
+
+#create-head-section .btn, #share-head-section .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  width: 170px;
+  height: 50px; }
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 28px;
+  margin-top: 8px; }

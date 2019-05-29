@@ -6,4 +6,5 @@ Link to course: https://www.eduonix.com/dashboard/bootstrap-4-from-scratch-with-
 To launch each project:
 
 npm init
+
 npm start
